@@ -6,7 +6,8 @@
 # export PROJ_PATH=这个jenkins任务在部署机器上的路径
 
 # 输入你的环境上tomcat的全路径
-# export TOMCAT_APP_PATH=tomcat在部署机器上的路径
+# export TOMCAT_APP_PATH=Tomcat在机器上的路径
+export TOMCAT_APP_PATH=/root/software/apache-tomcat-7.0.78
 
 ### base 函数
 killTomcat()
@@ -20,6 +21,7 @@ killTomcat()
       kill -9 $pid
     fi
 }
+#构建项目，打包
 cd $PROJ_PATH/order
 mvn clean install
 
