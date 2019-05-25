@@ -116,7 +116,7 @@
 											}
 										%>
 									</select>
-									<input type = "submit", value = "提交查询" class="btn btn-xs"/>
+									<input type = "submit" value = "提交查询" class="btn btn-xs"/>
 									&nbsp;|&nbsp;
 									<%--<input type = "button" value = "添加菜品" onclick="window.location.href='/addMenu'" class="btn btn-xs">--%>
 									<%--&nbsp;|&nbsp;--%>
